@@ -12,3 +12,6 @@ Here is the list of the new features that will be added
 5. Add more text preprocessing technique (BOW, etc)
 
 Feel free to contribute. 
+
+To run this app, use
+´streamlit run https://github.com/Emekaborisama/Open-Source-Topic-modelling-platform/blob/master/app.py´
