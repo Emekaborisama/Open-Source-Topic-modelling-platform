@@ -5,7 +5,7 @@ import nltk
 nltk.download('stopwords')
 from sklearn.feature_extraction.text import CountVectorizer
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 cv = CountVectorizer()
 from sklearn.decomposition import LatentDirichletAllocation as LDA
 import pickle
