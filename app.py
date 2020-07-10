@@ -2,14 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import nltk
-from nltk.corpus import stopwords
-stopwords_en = stopwords.words('english')
+nltk.download('stopwords')
 from sklearn.feature_extraction.text import CountVectorizer
 import matplotlib.pyplot as plt
 import seaborn as sns
 cv = CountVectorizer()
 from sklearn.decomposition import LatentDirichletAllocation as LDA
-stopwords= stopwords.words('english')
 import pickle
 
 
