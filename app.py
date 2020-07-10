@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from nltk.corpus import stopwords
 import nltk
+from nltk.corpus import stopwords
 stopwords_en = stopwords.words('english')
 from sklearn.feature_extraction.text import CountVectorizer
 import matplotlib.pyplot as plt
