@@ -4,4 +4,4 @@ scikit_learn>=0.20.0
 streamlit==0.57.0
 nltk== 3.5
 matplotlib == 3.2.2
-pickle>=0.1.0
+pickle == 4.0
