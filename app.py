@@ -10,15 +10,17 @@ cv = CountVectorizer()
 from sklearn.decomposition import LatentDirichletAllocation as LDA
 import pickle
 
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+#Title
+st.baloon()
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             </style>
             """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-#Title
 
 html_temp = """
 <div style = "background.color:teal; padding:10px">
