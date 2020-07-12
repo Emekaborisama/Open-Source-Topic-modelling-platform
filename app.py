@@ -10,7 +10,7 @@ cv = CountVectorizer()
 from sklearn.decomposition import LatentDirichletAllocation as LDA
 import pickle
 
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+#st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 #Title
 
