@@ -14,4 +14,4 @@ Here is the list of the new features that will be added
 Feel free to contribute. 
 
 To run this app, use
-`https://openml.herokuapp.com/`
+`streamlit run https://github.com/Emekaborisama/Open-Source-Topic-modelling-platform`
